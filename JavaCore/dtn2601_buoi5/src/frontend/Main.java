@@ -23,16 +23,16 @@ public class Main {
                     DepartmentFunction.run();
                     break;
 
-//                case "2":
-//                    PositionFunction.run();
-//                    break;
-//
-//                case "3":
-//                    AccountFunction.run();
-//                    break;
-//
-//                case "4":
-//                    return;
+                case "2":
+                    PositionFunction.run();
+                    break;
+
+                case "3":
+                    AccountFunction.run();
+                    break;
+
+                case "4":
+                    return;
 
                 default:
                     System.out.println("Nhập sai, nhập lại.");

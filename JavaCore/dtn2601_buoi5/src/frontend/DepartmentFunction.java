@@ -110,14 +110,14 @@ public class DepartmentFunction {
         }
     }
 
-    public static void insertDepartmentProcedure() {
-        System.out.println("Nhập tên phòng ban: ");
-        String name = sc.nextLine();
-        boolean check = QLDepartment.insertDerpartment(name);
-        if (check) {
-            System.out.println("Thêm mới thành công");
-        } else {
-            System.out.println("Thêm mới thất bại");
-        }
-    }
+//    public static void insertDepartmentProcedure() {
+//        System.out.println("Nhập tên phòng ban: ");
+//        String name = sc.nextLine();
+//        boolean check = QLDepartment.insertDerpartment(name);
+//        if (check) {
+//            System.out.println("Thêm mới thành công");
+//        } else {
+//            System.out.println("Thêm mới thất bại");
+//        }
+//    }
 }
